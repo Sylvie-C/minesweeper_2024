@@ -1,0 +1,26 @@
+.tileContainer {
+  position: relative; 
+}
+
+.tileContainer img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+
+  min-width:70%;
+  max-width:100%;
+}
+
+.empty {
+  z-index: 5;
+}
+
+.hide {
+  display: none; 
+}
+
+@media (max-width: 480px) {
+  .tileContainer img {
+    width: 80%;
+  }
+}

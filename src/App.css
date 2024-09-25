@@ -1,0 +1,20 @@
+body {
+  background-image: url("/assets/images/minesweeper_bckgd_bois.jpg");
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mineContainer {
+  display: grid;
+  gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .mineContainer {
+    gap: 2px;
+  }
+}
